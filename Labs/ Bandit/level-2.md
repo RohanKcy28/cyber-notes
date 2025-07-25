@@ -1,23 +1,25 @@
 
----
 
-### 📄 Example for `level-2.md`
+## 🔹 `level-2.md`
 
-```md
-# Bandit Level 2 → 3
+### ✅ Bandit Level 2 → Level 3
 
-## 🎯 Goal
-Read the contents of a file named `-` (dash) in the home directory.
+**🧠 Level Goal:**  
+The password for the next level is stored in a file called `spaces in this filename` in the home directory.
 
-## 💻 Commands Used
+**🔧 Commands Used:**
+ls -al
+cat "spaces in this filename"
 
-```bash
-ls
-cat ./-
-🧠 Password Found
-263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+**🖥️ Steps:**
 
-🤯 Lesson Learned
-Learned how to read files with tricky names using ./ prefix
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+# password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+ls -al
+cat "spaces in this filename"
 
-Special characters like - can confuse command line tools
+🔑 Password for bandit3:
+MNk8KNH3Usiio41PRUEoDFPqfxLPLSmx
+
+📌 Notes:
+Filenames with spaces must be wrapped in quotes (" ") or escaped (\ ).
