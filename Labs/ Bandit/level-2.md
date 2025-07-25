@@ -14,12 +14,12 @@ cat "spaces in this filename"
 **🖥️ Steps:**
 
 ssh bandit2@bandit.labs.overthewire.org -p 2220
-# password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+# password: [REDACTED — saved locally]
 ls -al
 cat "spaces in this filename"
 
 🔑 Password for bandit3:
-MNk8KNH3Usiio41PRUEoDFPqfxLPLSmx
+[REDACTED — saved locally]
 
 📌 Notes:
 Filenames with spaces must be wrapped in quotes (" ") or escaped (\ ).
