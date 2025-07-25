@@ -16,12 +16,12 @@ cat ./-
 **🖥️ Steps:**
 
 ssh bandit1@bandit.labs.overthewire.org -p 2220
-# password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+# password: [REDACTED — saved locally]
 ls -al
 cat ./-
 
 🔑 Password for bandit2:
-263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+[REDACTED — saved locally]
 
 📌 Notes:
 
