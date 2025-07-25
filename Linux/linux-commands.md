@@ -37,4 +37,3 @@
 - Reading logs or passwords via `cat`
 
 ---
-
