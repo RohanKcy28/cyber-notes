@@ -13,9 +13,9 @@ Password: bandit0
 
 ssh
 **🖥️ Steps:**
-```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 # password: bandit0
+
 🔑 Password for bandit1:
 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
